@@ -8,6 +8,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
+                echo 'jenkins file Build by AR'
                 sh 'npm install' 
             }
         }
